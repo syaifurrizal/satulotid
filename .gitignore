@@ -2,3 +2,4 @@ archive/
 docs/
 .jekyll-cache/
 Gemfile
+.gitignore
