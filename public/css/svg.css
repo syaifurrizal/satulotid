@@ -1,0 +1,23 @@
+/*
+ * Svg container
+ *
+ * Center the page svg content.
+ */
+
+.chart-container{
+  position: relative;
+  max-width: 28rem;
+  min-height: 18rem;
+}
+@media (min-width: 38em) {
+  .chart-container {
+    max-width: 32rem;
+    min-height: 16rem;
+  }
+}
+@media (min-width: 56em) {
+  .chart-container {
+    max-width: 38rem;
+    min-height: 19rem;
+  }
+}

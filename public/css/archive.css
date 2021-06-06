@@ -1,0 +1,17 @@
+.archives.ul{
+  list-style-type: none;
+}
+.archives.li {
+  display: block;
+  margin-bottom: .5rem;
+  overflow: auto;
+}
+.archives.post-date{
+  float: right;
+  margin-left: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.archives a{
+  color: #303030;
+}

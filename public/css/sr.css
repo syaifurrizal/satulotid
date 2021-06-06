@@ -1,0 +1,40 @@
+/* Warna latar tombol dan body menu sidebar disamakan */
+body, .sidebar-toggle {
+  background-color: #f2f2f2;
+}
+
+/* Warna judul website */
+.masthead-title a {
+  color: #999999;
+}
+
+/* Kuotasi pada text dengan menambahkan tag <q></q> */
+q {
+  quotes: "“" "”" "‘" "’" "“" "”" "‘" "’" "“" "”";
+}
+
+/* Style menu sidebar untuk khusus versi */
+a.sidebar-nav-item.version-control {
+  color: rgba(255,255,255,.6);
+}
+
+.sidebar-nav-item.version-control.active,
+a.sidebar-nav-item.version-control:hover,
+a.sidebar-nav-item.version-control:focus {
+  text-decoration: none;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+/* Container of content*/
+/* Diset minimum 75vh agar tidak ada space lebih di bawah footer */
+.container.content {
+  min-height: 69vh;
+}
+
+/* Footer penyanggahan */
+.penyanggahan {
+  font-size: .5rem;
+  width: 75%;
+  margin: 0 auto;
+}
