@@ -1,1 +1,1 @@
-Sitemap: http://syaifurrizal.github.io/sitemap.xml
+Sitemap: https://syaifurrizal.github.io/sitemap.xml
